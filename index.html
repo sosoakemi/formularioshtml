@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <h1>Formulario de cadastro</h1>
+
+    <div>
+        <form> 
+            <div class="name"> 
+       <label for="nome"> Nome: </label>
+       <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br>
+    </div>
+     
+    <div class="senha"> 
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" senha="senha" placeholder="Digite uma senha" required><br>
+    </div>
+
+    <div class="email">
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" email= "email" placeholder="Digite seu email" required><br>
+   </div>
+
+   <div class="date">
+    <label for="nacimento"> Data de nascimento</label>
+    <input type="data" id="nascimento" placeholder="Data de nascimento" max="2024-08-30" min="2000-01-01">
+   </div>
+   
+   <div class="interesses">
+    <p>Area de Interesse:</p>
+    </div>
+   
+    <div>
+        <input type="radio" id="interesse2" name="interesse" required value="musica" Musica>
+        <label for="musica">Musica</label>
+    </div>
+   
+    <div> 
+        <input type="radio" id="interesse3" name="interesse" value="arte" Arte>
+        <label for="arte">Arte</label>
+    </div>
+
+    <div>
+        <input type="radio" id="interesse4" name="interesse" value="esporte" Esporte>
+        <label for="esporte">Esporte</label>
+
+    </div>
+    
+    <div>
+        <input type="radio" id="interesse5" name="interesse" value="dança" Dança>
+        <label for="Danca">Dança</label>
+    </div>
+    
+
+   
+    
+   
+</div>
+<br>
+    <div>
+        <label for="modalidades"> Modalidades de Interesse: </label>
+        <ul>
+            <li><input type="checkbox" name="Modalidades" value="musculacao"> Musculaçao</li>
+            <li> <input type="checkbox" name="modalidades" value=" pilates"> Pilates</li>
+            <li> <input type="checkbox" name="modalidades" value=" aerobica"> Aerobica</li> 
+           <li> <input type="checkbox" name="modalidades" value=" futbool"> futbool</li>
+        </ul>
+        <button> Enviar </button>
+    </form> 
+    </div>
+   
+</body>
+</html>
